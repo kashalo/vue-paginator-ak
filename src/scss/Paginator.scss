@@ -1,0 +1,41 @@
+@import "./variable";
+
+.pagination {
+	padding-left: 0;
+	list-style: none;
+	border-radius: 0.25rem;
+	display: flex;
+	justify-content: flex-end;
+	margin: auto;
+	max-width: $max-width;
+}
+
+.page-link {
+	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: $main-color;
+	background-color: $white;
+	border: 1px solid #dee2e6;
+}
+
+.page-link {
+	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #496c94;
+	background-color: $white;
+	border: 1px solid #dee2e6;
+	cursor: pointer;
+}
+
+.page-item.active .page-link {
+	z-index: 1;
+	color: $white;
+	background-color: $main-color;
+	border-color: $main-color;
+}
