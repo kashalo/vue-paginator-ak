@@ -1,24 +1,24 @@
 
 <template>
   <ul
-    class="pagination"
+    class="pagination-ak"
     :style="alignment ? `justify-content: ${alignment};` : ''"
     v-show="shouldPaginat"
   >
-    <li v-show="prevUrl" class="page-item">
-      <a class="page-link" href="#" tabindex="-1" rel="previous" @click.prevent="page--">Previous</a>
+    <li v-show="prevUrl" class="page-item-ak">
+      <a class="page-link-ak" href="#" tabindex="-1" rel="previous" @click.prevent="page--">Previous</a>
     </li>
     <li
-      class="page-item"
+      class="page-item-ak"
       v-for=" pages in paginationNO"
       :key="pages.id"
       v-bind:class="{'active' : pages == page}"
     >
-      <a class="page-link" href="#" v-text="pages" @click.prevent="page = pages"></a>
+      <a class="page-link-ak" href="#" v-text="pages" @click.prevent="page = pages"></a>
     </li>
 
-    <li v-show="nextUrl" class="page-item">
-      <a class="page-link" href="#" rel="next" @click.prevent="page++">Next</a>
+    <li v-show="nextUrl" class="page-item-ak">
+      <a class="page-link-ak" href="#" rel="next" @click.prevent="page++">Next</a>
     </li>
   </ul>
 </template>

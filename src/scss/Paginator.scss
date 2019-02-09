@@ -1,6 +1,6 @@
 @import "./variable";
 
-.pagination {
+.pagination-ak {
 	padding-left: 0;
 	list-style: none;
 	border-radius: 0.25rem;
@@ -10,18 +10,7 @@
 	max-width: $max-width;
 }
 
-.page-link {
-	position: relative;
-	display: block;
-	padding: 0.5rem 0.75rem;
-	margin-left: -1px;
-	line-height: 1.25;
-	color: $main-color;
-	background-color: $white;
-	border: 1px solid #dee2e6;
-}
-
-.page-link {
+.page-link-ak {
 	position: relative;
 	display: block;
 	padding: 0.5rem 0.75rem;
@@ -33,7 +22,7 @@
 	cursor: pointer;
 }
 
-.page-item.active .page-link {
+.page-item-ak.active .page-link-ak {
 	z-index: 1;
 	color: $white;
 	background-color: $main-color;
