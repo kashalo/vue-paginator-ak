@@ -1,6 +1,6 @@
 # VUE Pagination
 
-This Package provide pagination system for your VUE app, it can work with any backend envoriment.
+This Package provide pagination system for your VUE app, it can work with any backend environment.
  
 ## Installation
 
@@ -47,7 +47,7 @@ This components accept five props:
 4. alignment ***Optional*** 
 5. preserveUrl ***Optional***
 
-This Props  allow you to pass the necceassery data in order this components to operate and give you the ability to custimze total links which will be displaied and pagination navigation alignment. 
+This Props allow you to pass the necessary data in order this components to operate and give you the ability to customize total links which will be displayed and pagination navigation alignment.
 
 ---
 ### Props Details 
@@ -66,14 +66,14 @@ This Props  allow you to pass the necceassery data in order this components to o
   - **type**: `String or Number`
   - **required**: `false`
   - **default**: `5`
-  - **description**: you can specificy how many link to be rendered in the pagination bar.
+  - **description**: You can specify how many link to be rendered in the pagination bar.
 ---
 - **alignment**
   - **type**: `String`
   - **required**: `false`
   - **default**: `flex-end`
   - **options**: `flex-start , center , flex-end`
-  - **description**: you can custimze the pagination alignment to be displaid either in the left , center or right of the page. 
+  - **description**: You can customize the pagination alignment to be displayed either in the left , center or right of the page. 
  ---
 - **preserveUrl**
   - **type**: `Boolean`
