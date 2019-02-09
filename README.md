@@ -120,7 +120,7 @@ We will assume in the following two examples that you have assign the http to va
  v-bind:preserve-url="true">
  </paginator>
 ```
- 
+ ---
 
  **Screen Shot**
 
