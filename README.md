@@ -79,7 +79,7 @@ This Props allow you to pass the necessary data in order this components to oper
   - **type**: `Boolean`
   - **required**: `false`
   - **default**: `false`
-  - **description**:
+  - **description**: by default this components will add `?page=Number` to the url and if you want to disable this behavior you need to set this property to `true`
 
 ---
 
