@@ -1,12 +1,16 @@
 {
 	"name": "vue-paginator-ak",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Pagination Components for VUE which work with any kind of backend ",
 	"main": "dist/vue-paginator-ak.umd.js",
 	"module": "dist/vue-paginator-ak.esm.js",
 	"unpkg": "dist/vue-paginator-ak.min.js",
 	"browser": {
 		"./sfc": "../src/Paginator.vue"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kashalo/vue-paginator-ak"
 	},
 	"scripts": {
 		"build": "npm run build:umd & npm run build:es & npm run build:unpkg",
